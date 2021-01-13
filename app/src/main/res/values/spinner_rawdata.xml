@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="chasu">
+        <item>고명철</item>
+        <item>권태훈</item>
+        <item>김순경</item>
+        <item>김경현</item>
+        <item>김영일</item>
+        <item>김호연</item>
+        <item>박기협</item>
+        <item>박태훈</item>
+        <item>박정근</item>
+        <item>박현권</item>
+        <item>신종안</item>
+        <item>윤규식</item>
+        <item>이승진</item>
+        <item>이윤지</item>
+        <item>이은영</item>
+        <item>채기병</item>
+        <item>최두호</item>
+        <item>하준혁</item>
+        <item>한재호</item>
+        <item></item>
+
+    </string-array>
+
+
+    <string-array name="bonbu">
+        <item>강북본부</item>
+    </string-array>
+
+    <string-array name="team">
+        <item>종로품질개선팀</item>
+        <item>남산품질개선팀</item>
+        <item>성수품질개선팀</item>
+        <item>수유품질개선팀</item>
+        <item>지하철품질개선팀</item>
+    </string-array>
+
+    <string-array name="si">
+        <item>서울특별시</item>
+    </string-array>
+
+    <string-array name="gu">
+        <item>서대문구</item>
+        <item>은평구</item>
+        <item>종로구</item>
+    </string-array>
+
+    <string-array name="sisulgun">
+        <item>관공서</item>
+        <item>대규모점포</item>
+        <item>대학교</item>
+        <item>도서관</item>
+        <item>미술관</item>
+        <item>박물관</item>
+        <item>영화관</item>
+        <item>의료기관</item>
+        <item>전시관</item>
+        <item>지하상가</item>
+    </string-array>
+
+
+
+    <string-array name="danmal">
+        <item>S10</item>
+        <item>Note10</item>
+        <item>S20</item>
+        <item>Note20</item>
+        <item>S21</item>
+        <item>ETC</item>
+    </string-array>
+
+    <string-array name="ant_type">
+        <item>돌출</item>
+        <item>매립</item>
+    </string-array>
+
+    <string-array name="mimo_type">
+        <item>siso</item>
+        <item>mimo</item>
+        <item>일부mimo</item>
+    </string-array>
+    <string-array name="s_tyoe">
+        <item>외부</item>
+        <item>인빌딩</item>
+    </string-array>
+    <string-array name="c_tool">
+        <item>SST</item>
+        <item>R-ENQA</item>
+        <item>DM</item>
+    </string-array>
+    <string-array name="gongju">
+        <item>단독</item>
+        <item>SKT</item>
+        <item>KT</item>
+        <item>LG</item>
+    </string-array>
+
+</resources>

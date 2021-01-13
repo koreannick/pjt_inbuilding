@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--     ##########3       -->
+    <!--       여기가 메인     -->
+    <!--        ##########3    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <!-- LEFT TITLE PART -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="3"
+            android:background="@color/bgTitleLeft"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/txt_gu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/white"
+                android:text="은평구"
+                android:textStyle="bold"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/txt_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/white"
+                android:text="21-01-07"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txt_naljja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/txt_date"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/white"
+                android:text="최종측정 날짜"
+                android:textSize="12sp" />
+
+
+        </RelativeLayout>
+        <!-- RIGHT TITLE PART -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/bgTitleRight"
+            android:paddingBottom="20dp"
+            android:paddingEnd="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="20dp"
+            android:paddingStart="15dp"
+            android:paddingTop="20dp">
+
+            <!--                    <ImageView-->
+            <!--                        android:id="@+id/title_from_to_dots"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_alignParentLeft="true"-->
+            <!--                        android:layout_alignParentStart="true"-->
+            <!--                        android:layout_marginEnd="10dp"-->
+            <!--                        android:layout_marginRight="10dp"-->
+            <!--                        android:src="@drawable/from_to_purple" />-->
+
+            <TextView
+                android:id="@+id/txt_sisul_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-5dp"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:singleLine="true"
+                android:text="수색자이상가 1단지"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/title_from_to_dots_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/txt_sisul_name"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@color/contentDividerLine" />
+
+            <TextView
+                android:id="@+id/title_to_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_from_to_dots_divider"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/txt_sisul_gun"
+                style="@style/TitleBadgeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="대규모점포"/>
+
+            <TextView
+                style="@style/TitleBadgeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/txt_sisul_gun"
+                android:layout_alignLeft="@id/txt_sisul_gun"
+                android:layout_alignStart="@id/txt_sisul_gun"
+                android:text="시설군" />
+
+            <TextView
+                android:id="@+id/txt_wi"
+                style="@style/TitleBadgeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text="1순위" />
+
+            <TextView
+                style="@style/TitleBadgeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/txt_wi"
+                android:layout_alignLeft="@id/txt_wi"
+                android:layout_alignStart="@id/txt_wi"
+                android:text="우선순위" />
+
+            <TextView
+                android:id="@+id/txt_danmal"
+                style="@style/TitleBadgeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="S10"/>
+
+            <TextView
+                style="@style/TitleBadgeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/txt_danmal"
+                android:layout_alignLeft="@id/txt_danmal"
+                android:layout_alignStart="@id/txt_danmal"
+                android:text="측정단말" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

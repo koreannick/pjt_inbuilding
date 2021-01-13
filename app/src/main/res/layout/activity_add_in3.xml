@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_in">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/colorFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="LTE 국소명"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Spinner
+                    android:paddingLeft="20dp"
+                    android:paddingRight="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    ></Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/colorFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="LTE 장비현황"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:text="SKT"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+                    <Spinner
+                        android:paddingLeft="20dp"
+                        android:paddingRight="50dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        ></Spinner>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:text="KT"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+                    <Spinner
+                        android:paddingLeft="20dp"
+                        android:paddingRight="50dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        ></Spinner>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:text="LGU+"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+                    <Spinner
+                        android:paddingLeft="20dp"
+                        android:paddingRight="50dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        ></Spinner>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/colorFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="LTE 리모트 수"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="SKT"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:hint="sk T/P">
+
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="KT"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:hint="sk T/P">
+
+                    </EditText>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="LGU+"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:hint="sk T/P">
+
+                    </EditText>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/colorFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="LTE 시설 TYPE"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Spinner
+                    android:paddingLeft="20dp"
+                    android:paddingRight="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    ></Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/colorFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="LTE MIMO 여부"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="S"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/spinner_sk_mimo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        ></Spinner>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="K"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+                    <Spinner
+                        android:id="@+id/spinner_kt_mimo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        ></Spinner>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="L"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+                    <Spinner
+                        android:id="@+id/spinner_lg_mimo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        ></Spinner>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/colorFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="대개체, CASCADE 분리 필요 여부"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Spinner
+                    android:paddingLeft="20dp"
+                    android:paddingRight="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    ></Spinner>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/colorFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="주파수 경쟁"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold">
+
+                </TextView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="SKT"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="800M">
+                    </CheckBox>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1.8G">
+                    </CheckBox>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="2.1G">
+                    </CheckBox>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="2.6G">
+                    </CheckBox>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="KT"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="900M">
+                    </CheckBox>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1.8G">
+                    </CheckBox>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="2.1G">
+                    </CheckBox>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="LGU+"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="800M">
+                    </CheckBox>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1.8G">
+                    </CheckBox>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="2.1G">
+                    </CheckBox>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="2.6G">
+                    </CheckBox>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="13">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="7">
+
+                <Button
+                    android:id="@+id/btn_go_add_4"
+                    android:layout_height="50dp"
+                    android:layout_width="50dp"
+                    android:background="@drawable/img_nextbutton"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

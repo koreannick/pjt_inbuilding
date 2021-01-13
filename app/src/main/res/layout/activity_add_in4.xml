@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".add_in4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/colorFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="5G 국소명"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Spinner
+                    android:paddingLeft="20dp"
+                    android:paddingRight="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    ></Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/colorFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="5G PRU 리모트 수"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="SKT"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="sk T/P">
+
+                    </EditText>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="KT"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="sk T/P">
+
+                    </EditText>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="LGU+"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="sk T/P">
+
+                    </EditText>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/colorFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="5G PRU LAYER 수"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="SKT"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="sk T/P">
+
+                    </EditText>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="KT"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="sk T/P">
+
+                    </EditText>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="LGU+"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="sk T/P">
+
+                    </EditText>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/colorFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="5G AAU 리모트 수"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="SKT"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="sk T/P">
+
+                    </EditText>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="KT"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="sk T/P">
+
+                    </EditText>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="LGU+"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="sk T/P">
+
+                    </EditText>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/colorFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="5G AAU LAYER 수"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="SKT"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="sk T/P">
+
+                    </EditText>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="KT"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="sk T/P">
+
+                    </EditText>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="LGU+"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="sk T/P">
+
+                    </EditText>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/colorFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="ANT 시설 유형"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="SKT"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/spinner_sk_ant"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="50dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        ></Spinner>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="KT"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/spinner_kt_ant"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="50dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        ></Spinner>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="LGU+"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorFont2">
+
+                    </TextView>
+
+                    <Spinner
+
+                        android:id="@+id/spinner_lg_ant"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="50dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        ></Spinner>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/colorFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="대개체, CASCADE 분리 필요 여부"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Spinner
+                    android:paddingLeft="20dp"
+                    android:paddingRight="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    ></Spinner>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/colorFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="특이사항"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Spinner
+                    android:paddingLeft="20dp"
+                    android:paddingRight="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    ></Spinner>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="11">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="6">
+
+                <Button
+                    android:id="@+id/btn_add_complete"
+                    android:layout_height="50dp"
+                    android:layout_width="50dp"
+                    android:background="@drawable/img_check"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
